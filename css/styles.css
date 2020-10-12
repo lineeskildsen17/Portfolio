@@ -7212,6 +7212,17 @@ img {
   height: auto;
   /* Højden skal tilpasse sig */ }
 
+.navbar-brand {
+  font-family: "Bell MT", cursive;
+  font-size: 40px; }
+
+.forsidetekst {
+  font-size: 100px;
+  font-family: "Bell MT", cursive; }
+
+.overskrift {
+  font-size: 80px; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
