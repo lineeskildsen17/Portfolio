@@ -1,0 +1,149 @@
+<!-- Instruktion til webbrowser om at vi kører HTML5 -->
+<!DOCTYPE html>
+
+<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
+<html lang="da">
+
+<!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
+<head>
+    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
+    <meta charset="utf-8">
+
+    <!-- Titel som ses oppe i browserens tab mv. -->
+    <title>Sigende titel</title>
+
+    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!-- i <body> har man alt indhold på siden som brugeren kan se -->
+<body>
+
+<!-- Her skal sidens indhold ligge -->
+
+<div class="container-fluid">
+    <nav class="navbar navbar-light ">
+        <a class="navbar-brand" href="#">Line Eskildsen</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active text-right">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item text-right">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item text-right">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown text-right">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!-- Her kommer forsidebilledet og teksten "Line Eskildsen Design Portfolio" -->
+<div class="container">
+    <div class="row pb-4">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+            <div class="forsidetekst text-right pt-lg-2">
+                Line <br> Eskildsen <br> Design <br> Portfolio
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="images/ansøgnings%20billede%201.jpg" alt="forside">
+        </div>
+    </div>
+</div>
+
+<!-- Her kommer min portfolio med flere forskellige kasser med forskelligt i..... -->
+<div class="container">
+    <div class="row text-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+            Portfolio
+
+        </div>
+
+        <!-- her skal der være billede med tekst ovenpå samt at man kan gå ind på den side -->
+
+        <div class="jumbotron imagesogtekst position-relative bg btn col-12 col-sm-12 col-md-5 col-lg-6">
+            Hjemmeside
+        </div>
+
+        <div class="jumbotron imagesogtekst position-relative bg btn col-12 col-sm-12 col-md-5 col-lg-6">
+            Ikon/Logo design
+        </div>
+
+
+
+        <div class="col-12 col-sm-12 col-md-5 col-lg-6">
+            <!-- her skal der være billede med tekst ovenpå samt at man kan gå ind på den side -->
+            Videoer
+        </div>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-6">
+            <!-- her skal der være billede med tekst ovenpå samt at man kan gå ind på den side -->
+            Grafisk Design
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+            <!-- her skal der være billede med tekst ovenpå samt at man kan gå ind på den side -->
+            Hjemmeside
+        </div>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+            <!-- her skal der være billede med tekst ovenpå samt at man kan gå ind på den side -->
+            Ikon/Logo design
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+            <!-- her skal der være billede med tekst ovenpå samt at man kan gå ind på den side -->
+            Videoer
+        </div>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+            <!-- her skal der være billede med tekst ovenpå samt at man kan gå ind på den side -->
+            Grafisk Design
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
